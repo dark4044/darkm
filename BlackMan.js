@@ -64,7 +64,7 @@ client.on("message", async message => {
 ━──╮•╭──━
 
 __ [Vote](link top gg) __  
-__ [invite](https://discord.com/api/oauth2/authorize?client_id=829039166141890631&permissions=8&scope=bot) __  __ [Support](https://discord.gg/kxFvrqV9Qu) __
+__ [invite](https://discord.com/api/oauth2/authorize?client_id=908645007815217162&permissions=8&scope=bot) __  __ [Support](https://discord.gg/ZbcCqgWpMx) __
 
 `);
     message.channel.send(help);
@@ -1237,7 +1237,7 @@ client.on("message", async message => {
 client.on("message", message => {
   if (message.content.startsWith(prefix + "support")) {
     const embed = new Discord.MessageEmbed()
-      .setDescription(`[Support](https://discord.gg/)`)
+      .setDescription(`[Support](https://discord.gg/ZbcCqgWpMx)`)
       .setTimestamp()
       .setFooter(`By: ${message.author.tag}`)
       .setAuthor(client.user.username)
